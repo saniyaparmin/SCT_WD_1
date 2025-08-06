@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Momo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="logo">Momo</div>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="nav-links" id="navLinks">
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div>
+      <h1>Momo Masala</h1>
+      <p>A plate full of happiness, one momo at a time</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>
+     "Taste the heritage: Our momos are a celebration of age-old flavors and culinary traditions."
+    </p>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="menu" id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="menu-card">
+        <h3>Steamed Momo</h3>
+        <p>Momo with steamed</p>
+        <span>₹50</span>
+      </div>
+      <div class="menu-card">
+        <h3>Fried Momo</h3>
+        <p>Refreshing mind with the fried momo.</p>
+        <span>₹85</span>
+      </div>
+      <div class="menu-card">
+        <h3>Tandoori Momo</h3>
+        <p> Steamed momos served in a flavorful, tangy broth</p>
+        <span>₹150</span>
+      </div>
+      <div class="menu-card">
+        <h3>Chicken Momo</h3>
+        <p>Filled with minced chicken and spices. </p>
+        <span>₹100</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Momo and Masala. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
